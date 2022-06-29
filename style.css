@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-image: url('images/waves.svg'); */
+    background-color: rgb(137, 118, 243);
+    /* background-color: #945ef8; */
+    /* background-image: linear-gradient(to top left, #35D6ED, #C9F6FF); */
+}
+
+ion-icon {
+    width: 30px;
+    height: 25px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem;
+    /* background-color: white; */
+
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+.main-wrapper {
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+.form-container {
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-color: #F2F4F8;
+    padding: 2rem;
+}
+
+.heading {
+    font-size: 1.6rem;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+.search-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    height: 32px;
+    padding-left: 1rem;
+}
+
+.search-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0 1rem;
+    background-color: coral;
+    border: none;
+    height: 33px;
+    transition: all .3s ease;
+}
+
+button:hover {
+    background-color: rgb(248, 160, 128);
+}
+
+button:active {
+    transform: scale(.90);
+}
+
+
+
+.celsius {
+    font-size: 2rem;
+    background-color: white;
+    border: none;
+    height: 33px;
+    transition: all .3s ease;
+    border-radius: 1rem;
+    padding: 0 2rem;
+}
+
+.farenheit {
+    font-size: 2rem;
+    background-color: white;
+    border: none;
+    height: 33px;
+    transition: all .3s ease;
+    border-radius: 1rem;
+    padding: 0 2rem;
+}
+
+
+.data-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 300px;
+    height: 100%;
+    color: white;
+    font-weight: 700;
+    /* background-color: white; */
+    text-align: center;
+    padding: 2rem;
+    background-repeat: no-repeat;
+}
+
+sup {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.city {
+    margin-bottom: 2rem;
+}
+
+.temperature {
+    font-size: 8rem;
+    margin-left: 4rem;
+}
+
+.climate {
+    font-size: 1.5rem;
+}
+
+
+/* -------------MEDIA QUERIES------------ */
+
+@media only screen and (min-width: 49rem) {
+    .main-wrapper {
+        /* border: 2px solid black; */
+        margin-top: 2rem;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .form-container {
+        /* border: 2px solid black; */
+        border-radius: 1rem;
+        text-align: center;
+        margin: auto;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        background-color: #F2F4F8;
+        padding: 2rem;
+    }
+
+
+
+    .data-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(9.5px);
+        -webkit-backdrop-filter: blur(9.5px);
+        border-radius: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        width: 300px;
+        height: 100%;
+        color: white;
+        font-weight: 700;
+        /* background-color: white; */
+        text-align: center;
+        padding: 2rem;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+
+
+
+}

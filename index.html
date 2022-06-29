@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icons8-sunny-64.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+
+    <header class="header-wrapper">
+        <!-- <ion-icon name="cloud"></ion-icon> -->
+        <img src="images/icons8-sunny-64.png" alt="">
+        <h1>WeatherApp</h1>
+    </header>
+    <main class="main-wrapper">
+        <section class="form-container">
+            <form action="/dummy" class="form">
+                <p class="heading">Weather Forecasts Around The World</p>
+                <div class="search-wrapper">
+                    <input type="search" class="search" placeholder="Search for city or place...">
+                    <button class="search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+            </form>
+        </section>
+        <div class="data-wrapper">
+            <div class="weather-container">
+                <h2 class="city">Toronto</h2>
+                <p class="temperature"><span>23</span><sup>°C</sup></p>
+                <h3 class="climate">cloudy</h3>
+            </div>
+            <div class="btn-container">
+                <button class="celsius">Celsius</button>
+                <button class="farenheit">Farenheit</button>
+            </div>
+    </main>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
